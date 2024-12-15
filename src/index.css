@@ -4,3 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Añadir en tu archivo de CSS global */
+.mantine-Modal-root .mantine-Modal-modal {
+    width: 600px !important; /* Fuerza el ancho */
+    max-width: 90% !important; /* Ajusta al 90% del contenedor */
+    overflow: hidden !important; /* Evita el desbordamiento */
+}
+
