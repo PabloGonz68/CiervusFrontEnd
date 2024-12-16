@@ -27,9 +27,9 @@ const ProductosComponent = () => {
 
     return (
 
-        <div className="bg-primary">
-            <div className="p-5 flex items-center justify-center">
-            <div className="flex w-[50%] items-center justify-between bg-secondary px-2 rounded-full h-14 ">
+        <div className="bg-primary border-t-2 border-black">
+            <div className="p-5 flex items-center justify-center pt-20">
+            <div className="flex w-[50%] items-center justify-between bg-secondary px-2 rounded-full h-16 ">
                 <div className="flex items-center justify-between lg:w-3/5 p-1">
                     <div>
                         <p className="text-black font-bold">Buscar...</p>
@@ -71,15 +71,15 @@ const ProductosComponent = () => {
                 </div>
 
                <div className="flex items-center justify-center rounded-xl p-4">
-  <div className="flex flex-col items-center justify-center w-[60%] h-20">
+  <div className="flex flex-col items-center justify-center w-[60%] h-20 mb-10">
     {/* Fila 1: Cabecera con texto Leyenda */}
     <div className="bg-primary flex items-center justify-center h-10 w-1/2 border-x-2 border-t-2 border-black rounded-t-xl">
       <p className="text-white font-bold">Leyenda</p>
     </div>
 
-    {/* Fila 2: Contenido con imágenes y texto */}
+    {/* Fila 2*/}
     <div className="bg-secondary flex items-center justify-center gap-3 h-20 w-1/2 border-x-2 border-b-2 border-black rounded-b-xl">
-      {/* Cuadrado con imagen roja, flecha y texto "Día" */}
+      
       <div className="flex items-center justify-center gap-2 p-2">
         <img src="public/red.png" alt="Red" className="w-6 h-6" />
         <img src="public/flecha.png" alt="Flecha" className="w-6 h-6" />

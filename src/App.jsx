@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
 import Home from "./pages/Home";
 import Productos from "./pages/Productos";
+import Error404 from "./pages/Error404";
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
                 <Routes>
                     <Route exact path="/" element={<Home />} />
                     <Route exact path="/Productos" element={<Productos />} />
+                    <Route exact path="*" element={<Error404 />}></Route>
                 </Routes>
             </div>
         </Router>
