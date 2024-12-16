@@ -215,7 +215,7 @@ const ProductosComponent = () => {
                                         <img
                                             src={producto.image}
                                             alt={producto.title}
-                                            className="w-full h-64 object-cover mb-4 rounded-md"
+                                            className="w-full h-72 object-cover mb-4 rounded-md"
                                         />
                                         <div className="flex flex-col space-y-2">
                                             <div className="flex gap-1">
