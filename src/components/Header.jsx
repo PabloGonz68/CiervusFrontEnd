@@ -255,6 +255,10 @@ const Header = () => {
                                     <button
                                         className="bg-[#3C5336] text-white font-bold py-2 px-20 rounded-lg text-pLogin"
                                         type="submit"
+                                        onClick={() => {
+                                            setRegisterOpened(false);
+                                            navigate("/perfil");
+                                        }}
                                     >
                                         CONTINUAR
                                     </button>
