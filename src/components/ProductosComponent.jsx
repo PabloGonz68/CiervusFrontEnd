@@ -43,29 +43,9 @@ const ProductosComponent = () => {
         const categoriaMatch = categoria
             ? producto.category === categoria
             : true;
-        const precioMatch = precio
-            ? producto.price <= getPrecioLimite(precio)
-            : true;
 
-        return categoriaMatch && precioMatch;
+        return categoriaMatch;
     });
-
-    const getPrecioLimite = (precio) => {
-        switch (precio) {
-            case "opcion1":
-                return 10; // Muy bajo
-            case "opcion2":
-                return 30; // Bajo
-            case "opcion3":
-                return 50; // Medio
-            case "opcion4":
-                return 80; // Alto
-            case "opcion5":
-                return 100; // Muy alto
-            default:
-                return Infinity;
-        }
-    };
 
     return (
         <div className="bg-primary border-t-2 border-black">
