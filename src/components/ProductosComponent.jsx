@@ -94,7 +94,6 @@ const ProductosComponent = () => {
                         name=""
                         id=""
                         className="flex text-white text-800 bg-[#2C2C2C] rounded-full px-3 py-1 font-bold"
-                        value={precio}
                     >
                         <option value="">Precio</option>
                         <option value="opcion1">Muy bajo</option>
