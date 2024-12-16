@@ -8,7 +8,6 @@ const ProductosComponent = () => {
     const [productos, setProductos] = useState([]);
     const [loading, setLoading] = useState(true);
     const [categoria, setCategoria] = useState("");
-    const [precio, setPrecio] = useState("");
     const navigate = useNavigate();
 
     useEffect(() => {
@@ -38,10 +37,6 @@ const ProductosComponent = () => {
     }
     const handleCategoriaChange = (event) => {
         setCategoria(event.target.value);
-    };
-
-    const handlePrecioChange = (event) => {
-        setPrecio(event.target.value);
     };
 
     const productosFiltrados = productos.filter((producto) => {
@@ -120,7 +115,6 @@ const ProductosComponent = () => {
                         id=""
                         className="flex text-white text-800 bg-[#2C2C2C] rounded-full px-3 py-1 font-bold"
                         value={precio}
-                        onChange={handlePrecioChange}
                     >
                         <option value="">Precio</option>
                         <option value="opcion1">Muy bajo</option>

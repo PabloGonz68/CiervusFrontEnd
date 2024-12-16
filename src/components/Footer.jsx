@@ -24,25 +24,25 @@ const Footer = () => {
             <nav className="text-white flex justify-center gap-7 w-2/4 flex-col text-center mt-3 lg:mt-0  h-full">
                 <Link
                     className="font-bold text-content2 lg:text-content"
-                    to="/"
+                    to="/sobrenosotros"
                 >
                     SOBRE NOSOTROS
                 </Link>
                 <Link
                     className="font-bold text-content2 lg:text-content"
-                    to="/"
+                    to="/productos"
                 >
                     PRODUCTOS
                 </Link>
                 <Link
                     className="font-bold text-content2 lg:text-content"
-                    to="/"
+                    to="/terminos"
                 >
                     TERMINOS
                 </Link>
                 <Link
                     className="font-bold text-content2 lg:text-content"
-                    to="/"
+                    to="/contacto"
                 >
                     CONTACTO
                 </Link>
