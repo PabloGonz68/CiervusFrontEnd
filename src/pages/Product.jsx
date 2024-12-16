@@ -110,7 +110,7 @@ const Product = () => {
                                 placeholder="Hasta"
                             />
                         </div>
-                        <button className="bg-secondary text-primary px-6 py-2 rounded-full hover:bg-primary">
+                        <button className="bg-secondary text-primary px-6 py-2 rounded-full">
                             SOLICITAR
                         </button>
                     </div>
